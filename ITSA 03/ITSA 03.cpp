@@ -1,6 +1,4 @@
-﻿//ITSA：判斷座標是否在圓形的範圍內
-
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 int main()
 {
