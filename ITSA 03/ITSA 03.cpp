@@ -13,22 +13,15 @@ bool isPrime(int p) {
 int main()
 {
 	int n;
-	int primes[100] = { 0 }; //輸入單一數，不需要
 	cout << "輸入一個數值n: "; //ITSA不會過
 	cin >> n;
 
-	//從1開始判斷是不是質數
-	int j = 0;
-	for (int i = 1; i <= n; i++) {
-		if (isPrime(i)) {
-			primes[j] = i;
-			j++;
-		}
-	}
+	//輸出
+	if (isprime) { 
+		cout << "YES" << endl;
 
-	// foreach loop：輸出
-	cout << "小於等於" << n << "的質數有:" << endl;
-	for (int p : primes) {
-		if (p != 0) cout << p << endl;
-	}
+	else {
+		cout << "NO" << endl;
+
+	return 0;
 }
