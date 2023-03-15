@@ -17,10 +17,10 @@ int main()
 	cin >> n;
 
 	//輸出
-	if (isprime) { 
+	if (isprime)
 		cout << "YES" << endl;
 
-	else {
+	else
 		cout << "NO" << endl;
 
 	return 0;
