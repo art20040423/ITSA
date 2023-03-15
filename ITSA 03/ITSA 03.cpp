@@ -17,7 +17,7 @@ int main()
 	cin >> n;
 
 	//輸出
-	if (isprime)
+	if (isPrime(n))
 		cout << "YES" << endl;
 	else
 		cout << "NO" << endl;
