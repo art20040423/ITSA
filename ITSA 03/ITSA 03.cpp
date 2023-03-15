@@ -13,7 +13,6 @@ bool isPrime(int p) {
 int main()
 {
 	int n;
-	cout << "輸入一個數值n: "; //ITSA不會過
 	cin >> n;
 
 	//判斷並輸出
