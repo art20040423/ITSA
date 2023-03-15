@@ -19,7 +19,6 @@ int main()
 	//輸出
 	if (isprime)
 		cout << "YES" << endl;
-
 	else
 		cout << "NO" << endl;
 
