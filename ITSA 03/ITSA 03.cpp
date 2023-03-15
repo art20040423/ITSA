@@ -16,7 +16,7 @@ int main()
 	cout << "輸入一個數值n: "; //ITSA不會過
 	cin >> n;
 
-	//輸出
+	//判斷並輸出
 	if (isPrime(n))
 		cout << "YES" << endl;
 	else
