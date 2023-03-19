@@ -1,6 +1,7 @@
 # ITSA-07
 ## 真複數運算(使用operator overloading)
 itsa作業Q7張柏藝  
+(x：乘號運算子)
 定義(operator overloading)：  
 +：`(a + bi) + (c + di) = (a + c) + (b + d)i`  
 -：`(a + bi) - (c + di) = (a−c) + (b − d)i`  
