@@ -1,3 +1,3 @@
 # ITSA-07
-## 複數運算
+## 真複數運算(使用operator overloading)
 itsa作業Q7張柏藝
