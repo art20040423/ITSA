@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-	int arr[3][3];
+	int arr[3][3]{};
 	for (int i = 0; i < 3; i++)
 	{
 		cin >> arr[i][0] >> arr[i][1] >> arr[i][2];
