@@ -14,7 +14,10 @@ int main()
 		}
 	}
 	n = t[0];//將不需要的空間再次利用 
-	for (int i = 0; i < 24; i++) { if (n < t[i])n = t[i]; }//尋最大值 
+	for (int i = 0; i < 24; i++) //尋最大值
+	{ 
+		if (n < t[i])n = t[i]; 
+	} 
 	cout << n << endl;
 
 	return 0;
