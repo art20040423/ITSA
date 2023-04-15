@@ -16,10 +16,12 @@ int main()
 	cin >> n;
 
 	//判斷並輸出
-	if (isPrime(n))
+	if (isPrime(n)) {
 		cout << "YES" << endl;
-	else
+	}
+	else {
 		cout << "NO" << endl;
+	}
 
 	return 0;
 }
