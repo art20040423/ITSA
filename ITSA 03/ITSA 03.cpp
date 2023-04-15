@@ -6,10 +6,12 @@ int main()
 	int r = 100; //圓半徑
 	int x1 = 0, y1 = 0; //圓心座標
 	cin >> x >> y;
-	if ((x - x1) * (x - x1) + (y - y1) * (y - y1) <= r * r)
+	if ((x - x1) * (x - x1) + (y - y1) * (y - y1) <= r * r) {
 		cout << "inside" << endl;
-	else
+	}
+	else {
 		cout << "outside" << endl;
+	}
 
 	return 0;
 }
