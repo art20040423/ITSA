@@ -9,6 +9,8 @@ int main()
 	cin >> p;
 	sum = 0;
 	for (n; n > 0; n--) {
+		/*(sum + p) * (1.0 + r) = sum
+		->sum + p = u, u * (1.0 + r) = sum*/
 		sum += p;
 		sum *= (1.0 + r);
 	}
