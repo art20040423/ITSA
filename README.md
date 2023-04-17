@@ -6,12 +6,8 @@ itsa作業Q7張柏藝
 +：`(a + bi) + (c + di) = (a + c) + (b + d)i`  
 -：`(a + bi) - (c + di) = (a−c) + (b − d)i`  
 x：`(a + bi) (c+di) = (ac-bd) + (bc + ad)i`  
-輸出格式：r i  
+輸出運算後的r,i  
 
-先輸入一個正整數(int n)，其後n列，依序為：運算元(char oper)、虛數1(int ar,ai)、虛數2(int br,bi)，將結果存入Complex c[]  
-根據`switch (oper)`：  
-當oper=+，執行a+b  
-當oper=-，執行a-b  
-當oper=x，執行ab  
-(結果存入c[i])  
-之後輸出c[i]，為r i(運算後的值)  
+先輸入一個正整數(int n)，其後n列，依序為：運算元(char oper)、虛數1(int ar,ai)、虛數2(int br,bi)，Complex c[]  
+經由`switch (oper)`判斷+,-,x來分別執行a+b,a-b,ab，再存入c[i]  
+之後使用for迴圈連續輸出c[i]的值  
