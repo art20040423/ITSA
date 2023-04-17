@@ -9,5 +9,5 @@ x：`(a + bi) (c+di) = (ac-bd) + (bc + ad)i`
 輸出運算後的r,i  
 
 先輸入一個正整數(int n)，其後n列，依序為：運算元(char oper)、虛數1(int ar,ai)、虛數2(int br,bi)，Complex c[]  
-經由`switch (oper)`判斷+,-,x來分別執行a+b,a-b,ab，再存入c[i]  
+經由switch判斷+,-,x來分別執行a+b,a-b,ab，再存入c[i]  
 之後使用for迴圈連續輸出c[i]的值  
